@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Wootric Ionic Framework SPA Example</title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <!-- <link href="css/style.css" rel="stylesheet"> -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script type="text/javascript" src="https://cdn.wootric.com/wootric-sdk.js"></script>
+    <script src="js/app.js"></script>
+
+  </head>
+  <body ng-app="wootricIonic" ng-controller="wootricIonicController">
+    <ion-side-menus>
+      <!-- Center content -->
+      <ion-side-menu-content>
+        <ion-header-bar class="bar bar-light">
+          <h1 class="title">Wootric Ionic Framework SPA Example</h1>
+        </ion-header-bar>
+        <div class="content">
+          <div>This is an example page</div>
+        </div>
+      </ion-side-menu-content>
+    </ion-side-menus>
+  </body>
+</html>
